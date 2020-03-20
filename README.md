@@ -6,8 +6,8 @@ All notebooks are concise, self-contained experiments, most of which have been r
 
 Also included are a few utilities for watching trained agents play (`./Animating`), plotting algorithm comparisons (`./Plotting`), as well as some research (discussed in my thesis) that looks into extracting an explicit "self model" from the environment (`./AutoEncoders`).
 
-<img src="./Animating/SpaceInvaders.gif" width="200">
-<img src="./Animating/Breakout.gif" width="200">
+<img src="./Animating/SpaceInvaders.gif" width="200" style="float: left;">
+<img src="./Animating/Breakout.gif" width="200" style="float: left;">
 
 
 Directory structure + list of notebooks and scripts:

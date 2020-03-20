@@ -1,0 +1,42 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red25\green25\blue25;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c12941\c12941\c12941;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl320\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+----------------------------------------------------------------\
+        Layer (type)               Output Shape         Param #\
+================================================================\
+            Conv2d-1           [-1, 32, 20, 20]           8,224\
+            Conv2d-2           [-1, 32, 20, 20]           8,224\
+              ReLU-3           [-1, 32, 20, 20]               0\
+              ReLU-4           [-1, 32, 20, 20]               0\
+            Conv2d-5             [-1, 64, 9, 9]          32,832\
+            Conv2d-6             [-1, 64, 9, 9]          32,832\
+              ReLU-7             [-1, 64, 9, 9]               0\
+              ReLU-8             [-1, 64, 9, 9]               0\
+            Conv2d-9             [-1, 64, 7, 7]          36,928\
+           Conv2d-10             [-1, 64, 7, 7]          36,928\
+             ReLU-11             [-1, 64, 7, 7]               0\
+             ReLU-12             [-1, 64, 7, 7]               0\
+          Flatten-13                 [-1, 3136]               0\
+          Flatten-14                 [-1, 3136]               0\
+           Linear-15                  [-1, 512]       1,606,144\
+           Linear-16                  [-1, 512]       1,606,144\
+             ReLU-17                  [-1, 512]               0\
+             ReLU-18                  [-1, 512]               0\
+           Linear-19                   [-1, 18]           9,234\
+           Linear-20                    [-1, 1]             513\
+================================================================\
+Total params: 3,378,003\
+Trainable params: 3,378,003\
+Non-trainable params: 0\
+----------------------------------------------------------------\
+Input size (MB): 0.11\
+Forward/backward pass size (MB): 0.71\
+Params size (MB): 12.89\
+Estimated Total Size (MB): 13.70\
+----------------------------------------------------------------}

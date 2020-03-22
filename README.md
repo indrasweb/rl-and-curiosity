@@ -7,9 +7,20 @@ All notebooks are concise, self-contained experiments, most of which have been r
 Also included are a few utilities for watching trained agents play (`./Animating`), plotting algorithm comparisons (`./Plotting`), as well as some research (discussed in my thesis) that looks into extracting an explicit "self model" from the environment (`./AutoEncoders`).
 
 <p float="left">
-	<img src="./Animating/SpaceInvaders.gif" height="250">
-	<img src="./Animating/Breakout.gif" height="250">
+	<img src="./Animating/SpaceInvaders.gif" height="250" width="200">
+	<img src="./Animating/Breakout.gif" height="250" width="200">
+	<img src="./Animating/Pong.gif" height="250" width="200">
+	<img src="./Animating/Pacman.gif" height="250" width="200">
 </p>
+
+<p float="left">
+	<img src="./Plotting/SpaceInvaders.Reward.frames.plt.png" height="200" width="200">
+	<img src="./Plotting/Breakout.Reward.frames.plt.png" height="200" width="200">
+	<img src="./Plotting/Pong.Reward.frames.plt.png" height="200" width="200">
+	<img src="./Plotting/Pacman.Reward.frames.plt.png" height="200" width="200">
+</p>
+
+<img src="./Plotting/MontezumaRevenge.Reward.frames.plt.png" height="200" width="200" align="centre">
 
 
 Directory structure + list of notebooks and scripts:

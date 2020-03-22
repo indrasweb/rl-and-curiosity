@@ -2,7 +2,7 @@ This repository contains the code produced over the course of my (Harry Songhurs
 
 To this end, I implemented the following algorithms in notebooks: `REINFORCE`, `DQN`, `A2C/A3C`, `PPO`, `PPO-GAE`, `ICM`, `RND`.
 
-All notebooks are concise, self-contained experiments, most of which have been run to produce a trained agent on the Atari games `Pong`, `SpaceInvaders`, `Pacman`, `Breakout`, `BankHeist`, `MontezumaRevenge`. All notebooks work in Colab out of the box, with one additional dependency (`stable-baselines==2.9.0`). 
+All notebooks are concise, self-contained experiments, most of which have been run for 5M frames (\~4500 weight updates for PPO based algos, 120K weight updates for A2C due to rollout length) to produce a trained agent on the Atari games `Pong`, `SpaceInvaders`, `Pacman`, `Breakout`, `BankHeist`, `MontezumaRevenge`. All notebooks work in Colab out of the box, with one additional dependency (`stable-baselines==2.9.0`). 
 
 Also included are a few utilities for watching trained agents play (`./Animating`), plotting algorithm comparisons (`./Plotting`), as well as some research (discussed in my thesis) that looks into extracting an explicit "self model" from the environment (`./AutoEncoders`).
 
@@ -20,10 +20,10 @@ Also included are a few utilities for watching trained agents play (`./Animating
 	<img src="./Plotting/Pacman.Reward.frames.plt.png" height="200" width="200">
 </p>
 
-<img src="./Plotting/MontezumaRevenge.Reward.frames.plt.png" height="200" width="200" align="centre">
+<img src="./Plotting/MontezumaRevenge.Reward.frames.plt.png" height="200" width="200">
 
 
-Directory structure + list of notebooks and scripts:
+List of notebooks and scripts:
 
 	.
 	├── A2C
@@ -102,4 +102,4 @@ Directory structure + list of notebooks and scripts:
 	    └── SpaceInvaders
 	        └── RND_Atari_SpaceInvaders.ipynb
 
-If you find any mistakes let me know. If you wish to ask me anything about my work then please do. It would put a smile on my face to help anyone out.
+If you find any mistakes let me know. If you wish to ask me anything about my work then please do. It would put a smile on my face to help anyone out!

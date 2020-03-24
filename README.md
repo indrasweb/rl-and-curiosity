@@ -20,7 +20,9 @@ Also included are a few utilities for watching trained agents play (`./Animating
 	<img src="./Plotting/Pacman.Reward.frames.plt.png" height="200" width="200">
 </p>
 
-<img src="./Plotting/MontezumaRevenge.Reward.frames.plt.png" height="200" width="200">
+<p float="left">
+	<img src="./Plotting/MontezumaRevenge.Reward.frames.plt.png" height="200" width="200">
+</p>
 
 
 List of notebooks and scripts:
